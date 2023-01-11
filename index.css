@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.main-div{
+    width:100vw;
+    height:100vh;
+    position:relative;
+    background: #000;
+    color: white;
+}
+
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.btn{
+    width:4rem;
+    height:2rem;
+    font-size: 15px;
+}
+#textarea{
+    margin: 2rem;
+    border: 20px solid rgba(107, 10, 10, 0.333);
+}
